@@ -55,7 +55,7 @@ export default class Home extends Component {
                     renderItem={({ item }) => (
                         <ListButton onPress={() => this.handleNavigate(item)}>
                             <Logo source={{ uri: item.urlLogo }} />
-                            <ListButtonText>{item.id}</ListButtonText>
+                            <ListButtonText>{item.titulo}</ListButtonText>
                         </ListButton>
                     )}
                 />
